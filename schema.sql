@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS taxi_data
 (
     id INTEGER PRIMARY KEY,
     fare_amount FLOAT64,
+    tip_amount FLOAT64,
     passenger_count INTEGER,
     pickup_datetime DATETIME,
     pickup_latitude FLOAT64,
@@ -47,5 +48,16 @@ CREATE TABLE IF NOT EXISTS daily_data
     DailyPrecipitation FLOAT64,
     DailyWindSpeed FLOAT64,
     DailySustainedWindSpeed REAL
-    
+);
+
+CREATE TABLE IF NOT EXISTS sun_data
+(
+    id INTEGER PRIMARY KEY,
+    DATE DATE,
+    year INTEGER,
+    month INTEGER,
+    day INTEGER,
+    hour INTEGER,
+    sunrise TIME,
+    sunset TIME
 );
