@@ -10,3 +10,8 @@ In Part 1, we need to preprocess the data before analyzing it. We must download 
 In Part 2, the focus is on storing the preprocessed datasets generated in Part 1 into a SQLite database. The first step is to create the SQLite database using SQLAlchemy or sqlite36. Four tables need to be created and populated: one for the sampled datasets of Yellow Taxi trips, one for Uber trips, one for hourly weather information, and one for daily weather information. Appropriate data types should be used for each column. Finally, a schema.sql file needs to be created that defines each table's schema. This file can be generated using SQLAlchemy within the notebook or created manually.
 
 In Part 3, the focus is on using SQL queries to gain insights and a better understanding of the datasets that were preprocessed and stored in Part 1 and Part 2, respectively.
+
+### Project Division
+Alex: part 1
+Muyu: part 2
+Alex and Muyu: part 3
