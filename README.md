@@ -1,5 +1,6 @@
-group name: group 14
-UNIs: yw3917, my2779
+Group name: group 14
+
+UNIs: Alex Wang: yw3917, Muyu Yang: my2779
 ### Project Description
 The task involves analyzing data from Uber rides and NYC Yellow taxi rides, as well as historical weather data from 2009 to 2015. The objective is to understand the trends and reasons behind the long-standing conflict between Uber and taxis. The data will be downloaded and cleaned, stored in a SQLite database, and visualized using a Jupyter notebook and SQL queries. The Yellow taxi data will be obtained as Parquet files, and for some months, the pickup and dropoff locations are given as IDs. To convert the IDs to latitude/longitude, the "Taxi Zone Shapefile (PARQUET)" file needs to be downloaded and unzipped. The analysis will not include Green taxi trips or FHV trips.
 
