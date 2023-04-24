@@ -16,3 +16,5 @@ pyarrow
 sqlalchemy
 
 matplotlib.pyplot
+
+folium
