@@ -1,1 +1,18 @@
 # Add your third-party Python libraries here
+requests
+
+BeautifulSoup
+
+numpy
+
+glob
+
+pandas
+
+geopandas
+
+pyarrow
+
+sqlalchemy
+
+matplotlib.pyplot
